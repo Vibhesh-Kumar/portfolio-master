@@ -1270,21 +1270,21 @@ body {
 }
 
 /* Hide Right-Click Menu */
-body {
+/* body {
   pointer-events: none;
 }
 
 /* Hide Inspect Element Tooltip */
-[data-html2canvas-ignore], 
+/* [data-html2canvas-ignore], 
 [data-html2canvas-ignore="true"], 
 [class^="devtools-"] {
   display: none !important;
-}
+}  */
 
-body {
+/* body {
   -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
-}
+/*   -moz-user-select: none; /* Firefox */ 
+/*   -ms-user-select: none; /* IE 10 and IE 11 */ 
+/*   user-select: none; /* Standard syntax */ 
+/* } */ 
 
