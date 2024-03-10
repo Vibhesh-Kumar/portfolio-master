@@ -1268,3 +1268,23 @@ body {
         color: #000;
     }
 }
+
+/* Hide Right-Click Menu */
+body {
+  pointer-events: none;
+}
+
+/* Hide Inspect Element Tooltip */
+[data-html2canvas-ignore], 
+[data-html2canvas-ignore="true"], 
+[class^="devtools-"] {
+  display: none !important;
+}
+
+body {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
